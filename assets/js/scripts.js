@@ -35,11 +35,11 @@ jQuery(document).ready(function() {
         Fullscreen background
     */
     $('.top-content').backstretch("assets/img/backgrounds/3.png");
-    $('#getit').backstretch("assets/img/backgrounds/10.png");
+    //$('#getit').backstretch("assets/img/backgrounds/10.png");
     $('#enjoy').backstretch("assets/img/backgrounds/4.png");
     $('#cafe').backstretch("assets/img/backgrounds/1.jpg");
     $('#shop').backstretch("assets/img/backgrounds/7.png");
-    $('.call-to-action-container').backstretch("assets/img/backgrounds/10.png");
+    //$('.call-to-action-container').backstretch("assets/img/backgrounds/10.png");
     $('#download').backstretch("assets/img/backgrounds/8.png");
     $('#email').backstretch("assets/img/backgrounds/7.png");
     $('.contact-container').backstretch("assets/img/backgrounds/9.png");
