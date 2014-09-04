@@ -33,9 +33,9 @@ if($_POST) {
         $params = array(
             'api_user' => $user,
             'api_key' => $pass,
-            'to' => 'timothy@letslinc.com',
+            'to' => $emailTo,
             'subject' => 'App Subscriber',
-            'html' => "<p>Email: $subscriber_email<p>",
+            'html' => "<p>Subscriber Email: $subscriber_email<p>",
             'text' => 'EMAIL SENT',
             'from' => 'lincapps@sendgrid.com',
             );
