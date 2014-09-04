@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
         Fullscreen background
     */
     $('.top-content').backstretch("assets/img/backgrounds/3.png");
-    //$('#getit').backstretch("assets/img/backgrounds/10.png");
+    $('#getit').backstretch("assets/img/backgrounds/10.png");
     $('#enjoy').backstretch("assets/img/backgrounds/4.png");
     $('#cafe').backstretch("assets/img/backgrounds/1.jpg");
     $('#shop').backstretch("assets/img/backgrounds/7.png");
