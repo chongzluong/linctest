@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>App Landing Page</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.aptana.projects.webnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Agency-HTML</name>
+			<type>2</type>
+			<location>/Users/Proximiant/Downloads/Agency-HTML</location>
+		</link>
+		<link>
+			<name>Showcase-1-2</name>
+			<type>2</type>
+			<location>/Users/Proximiant/Downloads/Showcase-1-2</location>
+		</link>
+		<link>
+			<name>realestate-home.html</name>
+			<type>1</type>
+			<location>/Users/Proximiant/Desktop/Letslinc.com Template/HTML/realestate-home.html</location>
+		</link>
+	</linkedResources>
+</projectDescription>
