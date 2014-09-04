@@ -35,6 +35,11 @@ img { max-width: 100%; }
 
 /***** General style, all sections *****/
 
+#faqbutton {
+	width: 225px;
+	height: 180px;
+}
+
 #redbg {
 	background-color: #ff314a;
 	width: 488px;
