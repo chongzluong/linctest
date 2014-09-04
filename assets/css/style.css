@@ -38,6 +38,7 @@ img { max-width: 100%; }
 #faqbutton {
 	width: 225px;
 	height: 180px;
+	float: right;
 }
 
 #redbg {
