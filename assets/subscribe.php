@@ -26,12 +26,45 @@ if($_POST) {
         $array['message'] = 'Thanks for your subscription!';
         echo json_encode($array);
 
+        $url = 'http://sendgrid.com/';
+        $user = 'apps';
+        $pass = 'wolfe#$#$#$'; 
+
+        $params = array(
+            'api_user' => $user,
+            'api_key' => $pass,
+            'to' => 'timothy@letslinc.com',
+            'subject' => 'App Subscriber',
+            'html' => "<p>Email: $subscriber_email<p>",
+            'text' => 'EMAIL SENT',
+            'from' => 'lincapps@sendgrid.com',
+            );
+
+        $request = $url.'api/mail.send.json';
+
+        // Generate curl request
+        $session = curl_init($request);
+
+        // Tell curl to use HTTP POST
+        curl_setopt ($session, CURLOPT_POST, true);
+
+        // Tell curl that this is the body of the POST
+        curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
+
+        // Tell curl not to return headers, but do return the response
+        curl_setopt($session, CURLOPT_HEADER, false);
+        curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
+
+        // obtain response
+        $response = curl_exec($session);
+        curl_close($session);
+
         // Send email
 	    $subject = 'New Subscriber (aeria)!';
 	    $body = "You have a new subscriber!\n\nEmail: " . $subscriber_email;
         // uncomment this to set the From and Reply-To emails, then pass the $headers variable to the "mail" function below
 	    //$headers = "From: ".$subscriber_email." <" . $subscriber_email . ">" . "\r\n" . "Reply-To: " . $subscriber_email;
-	    mail($emailTo, $subject, $body);
+	    //mail($emailTo, $subject, $body);
     }
 
 }
