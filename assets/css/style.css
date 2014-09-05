@@ -51,6 +51,7 @@ img { max-width: 100%; }
 .whitetxt {
 	color: #ffffff;
 }
+
 /* Overriding css priorities by using id*/
 #whitetxt1 {
 	color: #ffffff;
