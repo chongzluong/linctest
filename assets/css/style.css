@@ -48,6 +48,10 @@ img { max-width: 100%; }
 	width: 488px;
 }
 
+.whitetxt {
+	color: #ffffff;
+}
+
 .section-container {
     margin: 0 auto;
     padding-bottom: 60px;
