@@ -41,6 +41,9 @@
     <body>
         <!-- FAQ -->
         <div class="faq-container section-container">
+            <a href="/">
+                <img class="faqbutton" src="assets/img/BackArrow.jpg" alt="return to home">
+            </a> 
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 faq section-description wow fadeIn">
@@ -245,23 +248,58 @@
         </div>
         <!-- FAQ -->
 
-        <!-- Footer -->
-        <footer>
+        <!-- Call to action -->
+        <div class="call-to-action-container section-container section-container-full-bg" style="background-color: #25A3D5">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-7 footer-copyright">
-                        &copy; Linc Global
+                    <div class="col-sm-12 call-to-action section-description wow fadeIn">
+                        <h2> Linc to the Rescue
+                     
+                        </h2>
+                        
                     </div>
-                    <div class="col-sm-5 footer-social">
-                        <a class="ultm ultm-facebook ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        <a class="ultm ultm-linkedin ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        <a class="ultm ultm-twitter ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        <a class="ultm ultm-google-plus-1 ultm-32 ultm-square ultm-color-to-gray" href=""></a>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 call-to-action-button wow fadeInUp">
+                        <a class="button-1" href="#">
+                            <span class="button-1-left"><i class="fa fa-mobile"></i></span>
+                            <span class="button-1-right">
+                                <span class="button-1-right-top">Available on the</span>
+                                <span class="button-1-right-bottom">App Store</span>
+                            </span>
+                         </a>
+                         <a class="button-2" href="#">
+                            <span class="button-2-left"><i class="fa fa-android"></i></span>
+                            <span class="button-2-right">
+                                <span class="button-2-right-top">Get it now for</span>
+                                <span class="button-2-right-bottom">Android</span>
+                            </span>
+                         </a>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
         
+        
+        
+       
+        <!-- Subscription form -->
+        <div id='email' class="subscribe-container section-container" style="background-color: #9D9D9D;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 subscribe section-description wow fadeIn">
+                        <h2 id="whitetxt2">Stay Informed</h2>
+                        <p class="whitetxt"> <strong> Sign up now and you'll be among the first to know about new features and releases.</strong> </p>
+                        <form class="form-inline" action="assets/subscribe.php" method="post">
+                            <input type="text" name="email" placeholder="Enter your email..." class="subscribe-email">
+                            <button type="submit" class="btn"> <strong>Let's Linc</strong></button>
+                        </form>
+                        <div class="success-message"></div>
+                        <div class="error-message"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.10.2.min.js"></script>
