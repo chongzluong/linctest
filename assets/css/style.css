@@ -38,6 +38,8 @@ img { max-width: 100%; }
 #faqbutton {
 	width: 88px;
 	height: 88px;
+	padding-top: 10px;
+	padding-right: 10px;
 	float: right;
 }
 
