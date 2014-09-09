@@ -27,8 +27,8 @@ if($_POST) {
         echo json_encode($array);
 
         $url = 'http://sendgrid.com/';
-        $user = 'apps';
-        $pass = 'wolfe#$#$#$'; 
+        $user = 'NOT RELEASED TO THE GITHUB PUBLIC';
+        $pass = 'NOT RELEASED TO THE GITHUB PUBLIC'; 
 
         $params = array(
             'api_user' => $user,
